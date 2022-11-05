@@ -1,0 +1,91 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
+  
+  ::selection {
+    background: #000;
+    color: rgb(50, 50, 61);
+  }
+  .alternate ::selection {
+    background: #000;
+    color: #000;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  ul, li, .logo {
+    font-family: Courier New;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 00;
+    margin: 0;
+    padding: 0;
+  }
+  .inner {
+    width: 1500px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  header {
+    position: relative;
+    width: 100%;
+    padding-top: 5px;
+    background: #1b1b1b;
+    transition: 0.7s all;
+    z-index: 100;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  nav {
+    overflow: hidden;
+  }
+  
+  nav ul {
+    float: right;
+  }
+  
+  nav li {
+    display: inline;
+    float: left;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    transition: 0.3s all;
+  }
+  
+  nav a:hover {
+    background: rgb(41, 41, 41);
+  }
+  
+  .logo {
+    float: left;
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+  
+  }
+  
+  .alternate {
+    background: #000;
+    color: #fff;
+  }
+  
+  section .inner {
+    padding-top: 200px;
+  }
+  
+  

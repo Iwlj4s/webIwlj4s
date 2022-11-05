@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: Open Sans;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+.ic {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 415px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: -20px;
+    margin-left: 140px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-github {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #3d3d3d;
+    border-radius: 25px;
+}
+.fa-github:hover {
+    background-color: #3d3d3d;
+}
+.fa-instagram {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #3d3d3d;
+    border-radius: 25px;
+}
+.fa-instagram:hover {
+    background-color: #3d3d3d;
+}
+.fa-steam {
+    padding:10px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #3d3d3d;
+    border-radius: 25px;
+}
+.fa-steam:hover {
+    background-color: #3d3d3d;
+}
+  
