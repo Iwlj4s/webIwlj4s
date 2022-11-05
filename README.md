@@ -1,2 +1,2 @@
-# webIwlj4s URL: https://iwlj4s.github.io/webIwlj4s/Iwlj4s.html
- 
+# webIwlj4s 
+It's like shitty portfolio
